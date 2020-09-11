@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="Home - Container 1">e656f5372f0b10108631f7ecf699b601</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-11 10:42:53</sys_created_on>
+        <sys_id>0ec8f9372f0b10108631f7ecf699b6e4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
+        <sys_update_name>sp_row_0ec8f9372f0b10108631f7ecf699b6e4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-11 10:42:53</sys_updated_on>
+    </sp_row>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</application>
+        <file_path/>
+        <instance_id>10a42f9fdb75c89452dd2f17d49619c2</instance_id>
+        <instance_name>dev96488</instance_name>
+        <name>sp_row_0ec8f9372f0b10108631f7ecf699b6e4</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row"><sp_row action="INSERT_OR_UPDATE"><class_name/><order>1</order><sp_column/><sp_container display_value="Home - Container 1">e656f5372f0b10108631f7ecf699b601</sp_container><sys_class_name>sp_row</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-11 10:42:53</sys_created_on><sys_id>0ec8f9372f0b10108631f7ecf699b6e4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>1</sys_name><sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package><sys_policy/><sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope><sys_update_name>sp_row_0ec8f9372f0b10108631f7ecf699b6e4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-11 10:42:53</sys_updated_on></sp_row></record_update>]]></payload>
+        <payload_hash>1302628140</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>7054b1f32f0b10108631f7ecf699b667</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-11 10:42:53</sys_created_on>
+        <sys_id>8ac8f5b72f0b10108631f7ecf699b634</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1747cc2c5f80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-11 10:42:53</sys_updated_on>
+        <type>Row</type>
+        <update_guid>c2c8f5b7df0b10100c7b624148ecbf34</update_guid>
+        <update_guid_history>c2c8f5b7df0b10100c7b624148ecbf34:1302628140</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">94e839b72f0b10108631f7ecf699b68a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-11 10:43:18</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>7fc0a3f3572e4f2aaa5b00f3aa3a9764</sys_id>
+        <sys_metadata>0ec8f9372f0b10108631f7ecf699b6e4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
+        <sys_scope_delete display_value="">28719247fa724b2e8c95e64ffb1c1004</sys_scope_delete>
+        <sys_update_name>sp_row_0ec8f9372f0b10108631f7ecf699b6e4</sys_update_name>
+        <sys_update_version display_value="sp_row_0ec8f9372f0b10108631f7ecf699b6e4">8ac8f5b72f0b10108631f7ecf699b634</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-11 10:43:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
