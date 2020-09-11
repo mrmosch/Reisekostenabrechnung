@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="g7mitarbeiter" max_length="40" name="x_526619_reisekost_g7mitarbeiter" sizeclass="0" type="collection">
+    <element label="g7mitarbeiter" max_length="40" name="x_526619_reisekost_g7mitarbeiter" type="collection">
         <element choice="3" default="1" label="Abteilung" max_length="40" name="abteilung" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Consulting" value="4"/>

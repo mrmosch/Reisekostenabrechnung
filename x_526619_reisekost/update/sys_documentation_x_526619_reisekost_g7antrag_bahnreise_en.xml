@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="bahnreise" label="Bahnreise" language="en" table="x_526619_reisekost_g7antrag">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>bahnreise</element>
+            <help/>
+            <hint/>
+            <label>Bahnreise</label>
+            <language>en</language>
+            <name>x_526619_reisekost_g7antrag</name>
+            <plural>Bahnreises</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-11 09:37:51</sys_created_on>
+            <sys_id>51e9ed73074310101af9f9fc7c1ed0cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Bahnreise</sys_name>
+            <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
+            <sys_update_name>sys_documentation_x_526619_reisekost_g7antrag_bahnreise_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-11 09:37:51</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
