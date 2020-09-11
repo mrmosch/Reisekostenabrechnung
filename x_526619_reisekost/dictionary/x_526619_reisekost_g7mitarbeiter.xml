@@ -18,7 +18,7 @@
             </choice>
         </element>
         <element label="Tel" max_length="5" name="tel" type="string"/>
-        <element label="user" max_length="32" name="user" read_only="true" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="javascript: gs.getUserID();" label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="user"/>
         </index>

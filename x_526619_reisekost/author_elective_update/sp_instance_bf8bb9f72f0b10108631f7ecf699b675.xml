@@ -42,7 +42,7 @@
         <reverted_from/>
         <source>7054b1f32f0b10108631f7ecf699b667</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-11 10:55:01</sys_created_on>
         <sys_id>3f8bb9f72f0b10108631f7ecf699b677</sys_id>
