@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="g7mitarbeiter" max_length="40" name="x_526619_reisekost_g7mitarbeiter" type="collection">
+        <element choice="3" default="1" label="Abteilung" max_length="40" name="abteilung" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Consulting" value="4"/>
+                <element inactive_on_update="false" label="IT" value="1"/>
+                <element inactive_on_update="false" label="Marktkommunikation" value="2"/>
+                <element inactive_on_update="false" label="Support" value="3"/>
+            </choice>
+        </element>
+        <element default="c010" label="buero" max_length="4" name="buero" type="string"/>
+        <element label="email" max_length="20" name="email" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="1" label="Rolle" max_length="40" name="rolle" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Leiter" value="2"/>
+                <element inactive_on_update="false" label="Mitarbeiter" value="1"/>
+            </choice>
+        </element>
+        <element label="Tel" max_length="5" name="tel" type="string"/>
+        <element label="user" max_length="32" name="user" read_only="true" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
