@@ -10,6 +10,7 @@
         </element>
         <element default="c010" label="buero" max_length="4" name="buero" type="string"/>
         <element label="email" max_length="20" name="email" type="string"/>
+        <element default="Max Mustermann" label="Name" mandatory="true" max_length="200" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element choice="3" default="1" label="Rolle" max_length="40" name="rolle" type="choice">
             <choice>
