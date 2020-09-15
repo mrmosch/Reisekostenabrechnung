@@ -42,7 +42,7 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Ort" mandatory="true" max_length="100" name="ort" type="string"/>
         <element label="Rueckreise" mandatory="true" max_length="40" name="rueckreise" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Verantwortlicher_Leiter" max_length="32" name="verantwortlicher_leiter" reference="x_526619_reisekost_g7mitarbeiter" reference_qual="rolle=2^EQ" reference_qual_condition="rolle=2^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Verantwortlicher_Leiter" mandatory="true" max_length="32" name="verantwortlicher_leiter" reference="x_526619_reisekost_g7mitarbeiter" reference_qual="rolle=2^EQ" reference_qual_condition="rolle=2^EQ" type="reference"/>
         <index name="index">
             <element name="verantwortlicher_leiter"/>
         </index>
