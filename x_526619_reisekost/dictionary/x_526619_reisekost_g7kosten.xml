@@ -5,7 +5,6 @@
         <element attributes="edge_encryption_enabled=true" default="9,99" label="betrag" mandatory="true" max_length="40" name="betrag" type="float"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Genehmigt" mandatory="true" max_length="40" name="genehmigt" type="choice">
             <choice>
-                <element inactive_on_update="false" label="abgelehnt" value="3"/>
                 <element inactive_on_update="false" label="beantragt" value="1"/>
                 <element inactive_on_update="false" label="genehmigt" value="2"/>
             </choice>

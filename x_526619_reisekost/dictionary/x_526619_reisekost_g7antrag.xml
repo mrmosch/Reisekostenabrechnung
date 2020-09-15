@@ -21,7 +21,6 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Genehmigt" max_length="40" name="genehmigt" type="choice">
             <choice>
-                <element inactive_on_update="false" label="abgelehnt" value="3"/>
                 <element inactive_on_update="false" label="beantragt" value="1"/>
                 <element inactive_on_update="false" label="genehmigt" value="2"/>
             </choice>
