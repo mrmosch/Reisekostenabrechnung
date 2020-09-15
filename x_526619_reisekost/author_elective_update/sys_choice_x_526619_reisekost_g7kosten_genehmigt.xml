@@ -1,4 +1,68 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="DELETE" field="genehmigt" table="x_526619_reisekost_g7kosten" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>genehmigt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>beantragt</label>
+            <language>en</language>
+            <name>x_526619_reisekost_g7kosten</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-11 10:49:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>973a39bf074310101af9f9fc7c1ed072</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-11 10:49:26</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>genehmigt</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>genehmigt</label>
+            <language>en</language>
+            <name>x_526619_reisekost_g7kosten</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-11 10:49:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>434a71bf074310101af9f9fc7c1ed0c6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-11 10:49:38</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>genehmigt</element>
+            <name>x_526619_reisekost_g7kosten</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-11 10:49:26</sys_created_on>
+            <sys_id>fee3c348079f10101af9f9fc7c1ed0dd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>genehmigt</sys_name>
+            <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
+            <sys_update_name>sys_choice_x_526619_reisekost_g7kosten_genehmigt</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-11 10:49:26</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</application>
+        <file_path/>
+        <instance_id>1710c027db0fb7843050ac44d49619ea</instance_id>
+        <instance_name>dev91266</instance_name>
+        <name>sys_choice_x_526619_reisekost_g7kosten_genehmigt</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_choice action="INSERT_OR_UPDATE" field="genehmigt" table="x_526619_reisekost_g7kosten" version="3">
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value/>
@@ -55,4 +119,42 @@
             <sys_updated_on>2020-09-11 10:49:26</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
+</record_update>]]></payload>
+        <payload_hash>-1831601299</payload_hash>
+        <record_name>g7kosten.Genehmigt</record_name>
+        <reverted_from/>
+        <source>0c2b310d071b10101af9f9fc7c1ed04a</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 08:06:26</sys_created_on>
+        <sys_id>195bbd0d071b10101af9f9fc7c1ed083</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17490ccfa980000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 08:06:26</sys_updated_on>
+        <type>Choice list</type>
+        <update_guid>455bbd0d221b1010b3825591ef32f483</update_guid>
+        <update_guid_history>455bbd0d221b1010b3825591ef32f483:0,633b390ddd1b101073ba06d9a5b14872:1079225246,273b390d0a1b101019166014b682826f:-1157687746,ab3b390d491b1010228618ecec3e336c:1085102563,fb09bd41fd1b10107b4b406e677953a7:375277340,fae3c348059f1010c59a8aaf32f5fddf:0,79d30f08af9f1010221a65cf927388c4:1079225246,bdd30f080f9f1010185eccb7ebca2cc1:-1157687746,ea3547377547101082d9c6df9a411072:0,e0254ff38b47101076baf842894a6cc2:1079225246,28254ff3e8471010059d33dfc9ddc8bf:-1157687746,afd16efbaec3101016fbc86683004dce:0,0ac1a6fbeac31010788b58f615c635e0:1079225246,0ec1a6fb74c310105268c38548be62dd:-1157687746,29ca823f05831010523dbe1622aeb5fd:0,8dba0efb69831010315fdb659037fcf0:1079225246,81ba0efbce831010131470f129450dee:-1157687746,c826863b5e831010a331e9d10557cecd:0,f306023b01831010c8aaf77c55bd40a1:1079225246,e706023b4c831010734687cb58e5859e:-1157687746,1ebcbd732a831010921dafb3b010a3a2:0,6dacf57345831010d19f9ee3a30f469a:1079225246,61acf5732e831010aece7ec52e9fd698:-1157687746,7c5a7d7f2f4310107c0a496fc635646e:1085102563,28db3133418310107330a94b66a07db7:1079225246,2cdb3133e88310103448c8edfd533eb4:-1157687746,7c5a7d7f2f4310107c0a496fc635646e:1085102563,064a39bf2543101084c36c7db77b68cf:837505795</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 08:06:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_choice_set">sys_choice_set</sys_db_object>
+        <sys_id>095bbd0d071b10101af9f9fc7c1ed081</sys_id>
+        <sys_metadata>095bbd0d071b10101af9f9fc7c1ed081</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>genehmigt</sys_name>
+        <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
+        <sys_scope_delete display_value="">28719247fa724b2e8c95e64ffb1c1004</sys_scope_delete>
+        <sys_update_name>sys_choice_x_526619_reisekost_g7kosten_genehmigt</sys_update_name>
+        <sys_update_version display_value="sys_choice_x_526619_reisekost_g7kosten_genehmigt">195bbd0d071b10101af9f9fc7c1ed083</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 08:06:41</sys_updated_on>
+    </sys_metadata_delete>
 </record_update>
