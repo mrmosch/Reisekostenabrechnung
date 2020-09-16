@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="announcement">
+    <announcement action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <click_target/>
+        <details/>
+        <details_link_text/>
+        <details_page/>
+        <details_url/>
+        <dismiss_options>session_dismissible</dismiss_options>
+        <display_first>false</display_first>
+        <display_style display_value="Normal">704dedd6e7d4030075c2a117c2f6a91b</display_style>
+        <from>2020-09-16 08:50:27</from>
+        <glyph>book</glyph>
+        <glyph_alt_text/>
+        <name>Service Management mit ServiceNow</name>
+        <public>true</public>
+        <roles/>
+        <summary>Das Modul Service Management mit ServiceNow ist die Basis unseres Wissens für die Entwicklung dieser Applikation.</summary>
+        <sys_class_name>announcement</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-16 08:51:46</sys_created_on>
+        <sys_id>43eecb512f531010e4c854492799b607</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Management mit ServiceNow</sys_name>
+        <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
+        <sys_update_name>announcement_43eecb512f531010e4c854492799b607</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-16 08:51:46</sys_updated_on>
+        <title>Service Management mit ServiceNow</title>
+        <to>2020-09-30 08:50:40</to>
+        <type>67eaf134e7a3320075c2a117c2f6a9d2,52fa79f8e763320075c2a117c2f6a991</type>
+    </announcement>
+    <sys_translated_text action="delete_multiple" query="documentkey=43eecb512f531010e4c854492799b607"/>
+</record_update>
