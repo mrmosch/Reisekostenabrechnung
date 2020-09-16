@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>list-alt</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>2</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>genehmigen oder ablehnen</short_description>
+        <size>md</size>
+        <sp_column display_value="1">583a37dd2f931010e4c854492799b60c</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-11 14:54:24</sys_created_on>
+        <sys_id>5652b2ff2f8b10108631f7ecf699b63d</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>Offene Anträge</sys_name>
+        <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
+        <sys_update_name>sp_instance_link_5652b2ff2f8b10108631f7ecf699b63d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-16 12:40:54</sys_updated_on>
+        <title>Offene Anträge</title>
+        <type>url</type>
+        <url>/g7app?id=list&amp;table=x_526619_reisekost_g7antrag&amp;filter=genehmigt=1</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=5652b2ff2f8b10108631f7ecf699b63d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</application>
+        <file_path/>
+        <instance_id>f73b2a26db74230052e3f70fbf9619ec</instance_id>
+        <instance_name>dev71556</instance_name>
+        <name>sp_instance_link_5652b2ff2f8b10108631f7ecf699b63d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;list-alt&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;2&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;genehmigen oder ablehnen&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="1"&gt;583a37dd2f931010e4c854492799b60c&lt;/sp_column&gt;&lt;sp_page/&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-09-11 14:54:24&lt;/sys_created_on&gt;&lt;sys_id&gt;5652b2ff2f8b10108631f7ecf699b63d&lt;/sys_id&gt;&lt;sys_mod_count&gt;31&lt;/sys_mod_count&gt;&lt;sys_name&gt;Offene Anträge&lt;/sys_name&gt;&lt;sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost"&gt;e45451372f031010e4c854492799b62b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="ReisekostenabrechnungGr7"&gt;e45451372f031010e4c854492799b62b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_5652b2ff2f8b10108631f7ecf699b63d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-09-16 12:40:54&lt;/sys_updated_on&gt;&lt;title&gt;Offene Anträge&lt;/title&gt;&lt;type&gt;url&lt;/type&gt;&lt;url&gt;/g7app?id=list&amp;amp;table=x_526619_reisekost_g7antrag&amp;amp;filter=genehmigt=1&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Top Icon",
+		"displayValue": "Top Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=5652b2ff2f8b10108631f7ecf699b63d"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1329881326</payload_hash>
+        <record_name>Offene Anträge</record_name>
+        <reverted_from/>
+        <source>ff0a97592f531010e4c854492799b657</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-16 12:40:54</sys_created_on>
+        <sys_id>13b384652fd31010e4c854492799b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17496ee9e610000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-16 12:40:54</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>1bb38465dcd31010aecfe9257ec93269</update_guid>
+        <update_guid_history>1bb38465dcd31010aecfe9257ec93269:-1329881326,d32af3dd96931010a696558e72fdadff:-837871062,ba2a77dd89931010caaad2ee11eb91a5:15715127,2c0adb99d353101081e67f83b8dedd3d:0,73e917992e5310102808d5528d75a482:1428614171,53a75fd5705310106617f05e55b45c74:0,b297d7d59a531010d0b82f6297d9256e:1428614171,98f2875947131010a782096583445dda:0,1fd2035971131010c36ad385c8c7de6a:-1504129305,68ee3a55b01310108ac55c6b5f01a090:-1525000202</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Offene Anträge">5dc384652fd31010e4c854492799b6b0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-16 12:41:02</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>aec93056b4c64d48be75135ae4537c40</sys_id>
+        <sys_metadata>5652b2ff2f8b10108631f7ecf699b63d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Offene Anträge</sys_name>
+        <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
+        <sys_scope_delete display_value="">28719247fa724b2e8c95e64ffb1c1004</sys_scope_delete>
+        <sys_update_name>sp_instance_link_5652b2ff2f8b10108631f7ecf699b63d</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_5652b2ff2f8b10108631f7ecf699b63d">13b384652fd31010e4c854492799b66a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-16 12:41:02</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

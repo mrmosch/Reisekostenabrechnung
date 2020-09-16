@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color/>
+        <css/>
+        <glyph>eur</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">f675ba892f9310108631f7ecf699b6db</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 08:18:24</sys_created_on>
+        <sys_id>201eb1852f1310108631f7ecf699b630</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Offene Kosten</sys_name>
+        <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
+        <sys_update_name>sp_instance_link_201eb1852f1310108631f7ecf699b630</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 12:20:35</sys_updated_on>
+        <title>Offene Kosten</title>
+        <type>url</type>
+        <url>/g7app?id=list&amp;table=x_526619_reisekost_g7kosten&amp;filter=genehmigt=1</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=201eb1852f1310108631f7ecf699b630"/>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</application>
+        <file_path/>
+        <instance_id>f73b2a26db74230052e3f70fbf9619ec</instance_id>
+        <instance_name>dev71556</instance_name>
+        <name>sp_instance_link_201eb1852f1310108631f7ecf699b630</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;
+    &lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;
+        &lt;active&gt;true&lt;/active&gt;
+        &lt;class_name/&gt;
+        &lt;color/&gt;
+        &lt;css/&gt;
+        &lt;glyph&gt;eur&lt;/glyph&gt;
+        &lt;id/&gt;
+        &lt;kb_article/&gt;
+        &lt;kb_category/&gt;
+        &lt;kb_topic/&gt;
+        &lt;order&gt;1&lt;/order&gt;
+        &lt;roles/&gt;
+        &lt;sc_cat_item/&gt;
+        &lt;sc_category/&gt;
+        &lt;short_description/&gt;
+        &lt;size&gt;md&lt;/size&gt;
+        &lt;sp_column display_value="2"&gt;f675ba892f9310108631f7ecf699b6db&lt;/sp_column&gt;
+        &lt;sp_page/&gt;
+        &lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;
+        &lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;
+        &lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;
+        &lt;sys_created_on&gt;2020-09-15 08:18:24&lt;/sys_created_on&gt;
+        &lt;sys_id&gt;201eb1852f1310108631f7ecf699b630&lt;/sys_id&gt;
+        &lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;
+        &lt;sys_name&gt;Offene Kosten&lt;/sys_name&gt;
+        &lt;sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost"&gt;e45451372f031010e4c854492799b62b&lt;/sys_package&gt;
+        &lt;sys_policy/&gt;
+        &lt;sys_scope display_value="ReisekostenabrechnungGr7"&gt;e45451372f031010e4c854492799b62b&lt;/sys_scope&gt;
+        &lt;sys_update_name&gt;sp_instance_link_201eb1852f1310108631f7ecf699b630&lt;/sys_update_name&gt;
+        &lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;
+        &lt;sys_updated_on&gt;2020-09-15 12:20:35&lt;/sys_updated_on&gt;
+        &lt;title&gt;Offene Kosten&lt;/title&gt;
+        &lt;type&gt;url&lt;/type&gt;
+        &lt;url&gt;/g7app?id=list&amp;amp;table=x_526619_reisekost_g7kosten&amp;amp;filter=genehmigt=1&lt;/url&gt;
+        &lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]&gt;&lt;/widget_parameters&gt;
+    &lt;/sp_instance_link&gt;
+    &lt;sys_translated_text action="delete_multiple" query="documentkey=201eb1852f1310108631f7ecf699b630"/&gt;
+&lt;/record_update&gt;</payload>
+        <payload_hash>973174352</payload_hash>
+        <record_name>Offene Kosten</record_name>
+        <reverted_from/>
+        <source>a2d95f592f531010e4c854492799b673</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-16 09:38:35</sys_created_on>
+        <sys_id>a40adb992f531010e4c854492799b63b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1749647b1ea0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-16 09:38:35</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>240adb999653101071c727103556a33b</update_guid>
+        <update_guid_history>240adb999653101071c727103556a33b:0,93e9d399455310100255e371cb88adcc:-149227244,5ba75fd5f45310104b47e9068e456d71:0,569797d52e53101076299824f125dfc5:-149227244,d8f28759871310102678c06c064d48cb:0,6fd2035915131010c36b3a0fc4d1d690:-1304362882,20ee3a55f11310100de384b0d3c3f38e:-763025060</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Offene Kosten">cad380652fd31010e4c854492799b6fb</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-16 12:41:22</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>2be70b24e64e44c0a993584b1fc49100</sys_id>
+        <sys_metadata>201eb1852f1310108631f7ecf699b630</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Offene Kosten</sys_name>
+        <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
+        <sys_scope_delete display_value="">28719247fa724b2e8c95e64ffb1c1004</sys_scope_delete>
+        <sys_update_name>sp_instance_link_201eb1852f1310108631f7ecf699b630</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_201eb1852f1310108631f7ecf699b630">a40adb992f531010e4c854492799b63b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-16 12:41:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
