@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu">
+    <sp_instance_menu action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="4">cb2106092f1310108631f7ecf699b65b</sp_column>
+        <sp_widget display_value="Icon Menu List">88979930cb01020000f8d856634c9caa</sp_widget>
+        <sys_class_name>sp_instance_menu</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 08:32:05</sys_created_on>
+        <sys_id>493106092f1310108631f7ecf699b667</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Häufig gestellte Fragen</sys_name>
+        <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
+        <sys_update_name>sp_instance_menu_493106092f1310108631f7ecf699b667</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 09:05:48</sys_updated_on>
+        <title>Häufig gestellte Fragen</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_menu>
+    <sys_translated_text action="DELETE" query="documentkey=493106092f1310108631f7ecf699b667"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</application>
+        <file_path/>
+        <instance_id>10a42f9fdb75c89452dd2f17d49619c2</instance_id>
+        <instance_name>dev96488</instance_name>
+        <name>sp_instance_menu_493106092f1310108631f7ecf699b667</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_menu"><sp_instance_menu action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="4">cb2106092f1310108631f7ecf699b65b</sp_column><sp_widget display_value="Icon Menu List">88979930cb01020000f8d856634c9caa</sp_widget><sys_class_name>sp_instance_menu</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-09-15 08:32:05</sys_created_on><sys_id>493106092f1310108631f7ecf699b667</sys_id><sys_mod_count>1</sys_mod_count><sys_name>Häufig gestellte Fragen</sys_name><sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package><sys_policy/><sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope><sys_update_name>sp_instance_menu_493106092f1310108631f7ecf699b667</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-09-15 09:05:48</sys_updated_on><title>Häufig gestellte Fragen</title><url/><widget_parameters/></sp_instance_menu><sys_translated_text action="delete_multiple" query="documentkey=493106092f1310108631f7ecf699b667"/></record_update>]]></payload>
+        <payload_hash>1089080155</payload_hash>
+        <record_name>Häufig gestellte Fragen</record_name>
+        <reverted_from/>
+        <source>4e799a092f5310108631f7ecf699b6c2</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 10:18:12</sys_created_on>
+        <sys_id>db79da092f5310108631f7ecf699b6f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17491459c020000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 10:18:12</sys_updated_on>
+        <type>Instance with Menu</type>
+        <update_guid>bee8864d231310106ca20e9abe3171bd</update_guid>
+        <update_guid_history>bee8864d231310106ca20e9abe3171bd:1089080155,74495ec55d53101037d26593d1d4e7fd:-974388633,bee8864d231310106ca20e9abe3171bd:1089080155,cd310609c71310105d61155ef924d368:85091936</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Häufig gestellte Fragen">b865fe492f9310108631f7ecf699b6c4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 12:20:05</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_menu">sp_instance_menu</sys_db_object>
+        <sys_id>001a074bbd86423e801990c7eaf794e4</sys_id>
+        <sys_metadata>493106092f1310108631f7ecf699b667</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Häufig gestellte Fragen</sys_name>
+        <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
+        <sys_scope_delete display_value="">28719247fa724b2e8c95e64ffb1c1004</sys_scope_delete>
+        <sys_update_name>sp_instance_menu_493106092f1310108631f7ecf699b667</sys_update_name>
+        <sys_update_version display_value="sp_instance_menu_493106092f1310108631f7ecf699b667">db79da092f5310108631f7ecf699b6f2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 12:20:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
