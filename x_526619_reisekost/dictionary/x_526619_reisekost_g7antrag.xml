@@ -38,7 +38,7 @@
                 <element inactive_on_update="false" label="nein" value="1"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="javascript: gs.getUserID();" label="Ma ID" mandatory="true" max_length="32" name="ma_id" reference="x_526619_reisekost_g7mitarbeiter" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Ma ID" mandatory="true" max_length="32" name="ma_id" reference="x_526619_reisekost_g7mitarbeiter" type="reference" use_dynamic_default="true"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Ort" mandatory="true" max_length="100" name="ort" type="string"/>
         <element label="Rueckreise" mandatory="true" max_length="40" name="rueckreise" type="glide_date"/>
