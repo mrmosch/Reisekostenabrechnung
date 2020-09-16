@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>name</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">2a9acce52fdf10108631f7ecf699b6ef</sp_column>
+        <sp_page display_value="g7kostenzuuser">8a6b4c292fdf10108631f7ecf699b6b6</sp_page>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-16 13:10:57</sys_created_on>
+        <sys_id>639ac4292fdf10108631f7ecf699b627</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Bitte Mitarbeiter auswählen</sys_name>
+        <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
+        <sys_update_name>sp_instance_table_639ac4292fdf10108631f7ecf699b627</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-16 13:19:25</sys_updated_on>
+        <table>x_526619_reisekost_g7mitarbeiter</table>
+        <title>Bitte Mitarbeiter auswählen</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=639ac4292fdf10108631f7ecf699b627"/>
+</record_update>

@@ -53,7 +53,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-11 09:13:57</sys_created_on>
-        <sys_id>bc9d0c6d2fd31010e4c854492799b6c1</sys_id>
+        <sys_id>26129c6d2fdf10108631f7ecf699b6f9</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>User</sys_name>
         <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
@@ -61,7 +61,7 @@
         <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
         <sys_update_name>sys_dictionary_x_526619_reisekost_g7mitarbeiter_user</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-16 13:23:58</sys_updated_on>
+        <sys_updated_on>2020-09-16 13:43:45</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

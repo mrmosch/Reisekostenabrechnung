@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>kostenart,betrag,genehmigt</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b1cb4c292fdf10108631f7ecf699b68b</sp_column>
+        <sp_page/>
+        <sp_widget display_value="g7kostenzuuserfilter">82afc8a92fdf10108631f7ecf699b61b</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-16 13:33:55</sys_created_on>
+        <sys_id>c0ef0ce92fdf10108631f7ecf699b6a6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Meine Kosten</sys_name>
+        <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
+        <sys_update_name>sp_instance_table_c0ef0ce92fdf10108631f7ecf699b6a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-16 13:34:33</sys_updated_on>
+        <table>x_526619_reisekost_g7kosten</table>
+        <title>Meine Kosten</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=c0ef0ce92fdf10108631f7ecf699b6a6"/>
+</record_update>
