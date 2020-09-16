@@ -72,7 +72,7 @@
         <update_guid_history>1bb38465dcd31010aecfe9257ec93269:-1329881326,d32af3dd96931010a696558e72fdadff:-837871062,ba2a77dd89931010caaad2ee11eb91a5:15715127,2c0adb99d353101081e67f83b8dedd3d:0,73e917992e5310102808d5528d75a482:1428614171,53a75fd5705310106617f05e55b45c74:0,b297d7d59a531010d0b82f6297d9256e:1428614171,98f2875947131010a782096583445dda:0,1fd2035971131010c36ad385c8c7de6a:-1504129305,68ee3a55b01310108ac55c6b5f01a090:-1525000202</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Offene Anträge">5dc384652fd31010e4c854492799b6b0</sys_audit_delete>
+        <sys_audit_delete display_value="">5dc384652fd31010e4c854492799b6b0</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-16 12:41:02</sys_created_on>

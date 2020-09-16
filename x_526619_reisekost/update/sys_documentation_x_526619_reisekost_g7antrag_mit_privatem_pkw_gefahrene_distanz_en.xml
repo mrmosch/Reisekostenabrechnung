@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="verantwortlicher_leiter" label="Verantwortlicher_Leiter" language="en" table="x_526619_reisekost_g7antrag">
+    <sys_documentation element="mit_privatem_pkw_gefahrene_distanz" label="Mit privatem PKW gefahrene Distanz" language="en" table="x_526619_reisekost_g7antrag">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>verantwortlicher_leiter</element>
+            <element>mit_privatem_pkw_gefahrene_distanz</element>
             <help/>
             <hint/>
-            <label>Verantwortlicher_Leiter</label>
+            <label>Mit privatem PKW gefahrene Distanz</label>
             <language>en</language>
             <name>x_526619_reisekost_g7antrag</name>
-            <plural>Verantwortlicher_Leiters</plural>
+            <plural>Mit privatem PKW gefahrene Distanzes</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-11 10:00:25</sys_created_on>
-            <sys_id>896bc829dbd310104379c4ab0b9619d1</sys_id>
+            <sys_created_on>2020-09-16 12:09:58</sys_created_on>
+            <sys_id>12acf35ddb9310104379c4ab0b96190f</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Verantwortlicher_Leiter</sys_name>
+            <sys_name>Mit privatem PKW gefahrene Distanz</sys_name>
             <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
             <sys_policy/>
             <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
-            <sys_update_name>sys_documentation_x_526619_reisekost_g7antrag_verantwortlicher_leiter_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_526619_reisekost_g7antrag_mit_privatem_pkw_gefahrene_distanz_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-11 10:00:25</sys_updated_on>
+            <sys_updated_on>2020-09-16 12:09:58</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

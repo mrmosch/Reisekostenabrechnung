@@ -39,6 +39,7 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Ma ID" mandatory="true" max_length="32" name="ma_id" reference="x_526619_reisekost_g7mitarbeiter" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true" default="0" label="Mit privatem PKW gefahrene Distanz" mandatory="true" max_length="40" name="mit_privatem_pkw_gefahrene_distanz" type="float"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="Ort" mandatory="true" max_length="100" name="ort" type="string"/>
         <element label="Rueckreise" mandatory="true" max_length="40" name="rueckreise" type="glide_date"/>
