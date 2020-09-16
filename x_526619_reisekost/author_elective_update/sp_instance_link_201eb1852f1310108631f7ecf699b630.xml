@@ -110,7 +110,7 @@
         <update_guid_history>240adb999653101071c727103556a33b:0,93e9d399455310100255e371cb88adcc:-149227244,5ba75fd5f45310104b47e9068e456d71:0,569797d52e53101076299824f125dfc5:-149227244,d8f28759871310102678c06c064d48cb:0,6fd2035915131010c36b3a0fc4d1d690:-1304362882,20ee3a55f11310100de384b0d3c3f38e:-763025060</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Offene Kosten">cad380652fd31010e4c854492799b6fb</sys_audit_delete>
+        <sys_audit_delete display_value="">cad380652fd31010e4c854492799b6fb</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-16 12:41:22</sys_created_on>

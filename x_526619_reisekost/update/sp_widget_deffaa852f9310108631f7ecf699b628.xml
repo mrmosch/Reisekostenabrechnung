@@ -7,8 +7,10 @@
 		var s = {id: p, table: parms.table, sys_id: parms.sys_id, view: 'sp'};
 		var newURL = $location.search(s);
 		spAriaFocusManager.navigateToLink(newURL.url());
+		  
 	});
-}]]></client_script>
+}
+]]></client_script>
         <controller_as>c</controller_as>
         <css/>
         <data_table>sp_instance_table</data_table>
@@ -52,7 +54,12 @@
 	data.window_size = $sp.getValue('maximum_entries') || 10;
 	data.window_start  = (data.page_index * data.window_size);
 	data.window_end = (((data.page_index + 1) * data.window_size));
-	data.filter = $sp.getValue("filter");
+	
+	
+	data.filter = 'ma_id='.concat($sp.getParameter("sys_id"));
+	gs.addInfoMessage(data.filter);
+	//data.filter = $sp.getValue("filter");
+	
 
 	var gr = new GlideRecordSecure(data.table);
 	if (!gr.isValid()) {
@@ -72,6 +79,10 @@
 	options.headerTitle =options.title;
 	options.show_breadcrumbs=true;
 	
+	var incSysid = $sp.getParameter("sys_id");
+	gs.addInfoMessage(incSysid);
+	gs.addInfoMessage(data.filter);
+	
 	data.dataTableWidget = $sp.getWidget('widget-data-table', options);
 })();]]></script>
         <servicenow>false</servicenow>
@@ -79,14 +90,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-15 11:56:25</sys_created_on>
         <sys_id>deffaa852f9310108631f7ecf699b628</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>25</sys_mod_count>
         <sys_name>Copy of Data Table from Instance Definit</sys_name>
         <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
         <sys_update_name>sp_widget_deffaa852f9310108631f7ecf699b628</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-15 11:56:25</sys_updated_on>
+        <sys_updated_on>2020-09-16 12:45:07</sys_updated_on>
         <template><![CDATA[<div>
   <div class="alert alert-danger" ng-if="data.invalid_table">
     ${Table not defined} '{{data.table_label}}'

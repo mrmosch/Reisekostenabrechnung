@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="g7antrag" max_length="40" name="x_526619_reisekost_g7antrag" sizeclass="1" type="collection">
+    <element label="g7antrag" max_length="40" name="x_526619_reisekost_g7antrag" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Bahnklasse" max_length="40" name="bahnklasse" type="choice">
             <choice>
                 <element inactive_on_update="false" label="ja" value="2"/>

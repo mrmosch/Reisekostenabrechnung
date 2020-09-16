@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="g7kosten" max_length="40" name="x_526619_reisekost_g7kosten" sizeclass="0" type="collection">
+    <element label="g7kosten" max_length="40" name="x_526619_reisekost_g7kosten" type="collection">
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Antrag" mandatory="true" max_length="32" name="antrag" reference="x_526619_reisekost_g7antrag" reference_qual="genehmigt=2^EQ" reference_qual_condition="genehmigt=2^EQ" type="reference"/>
         <element attributes="edge_encryption_enabled=true,pdf_cell_type=image" label="Beleg" max_length="40" name="beleg" type="user_image"/>
         <element attributes="edge_encryption_enabled=true" default="9,99" label="betrag" mandatory="true" max_length="40" name="betrag" type="float"/>
