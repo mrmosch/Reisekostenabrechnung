@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="DELETE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="Home - Container 2">0275ba892f9310108631f7ecf699b601</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 12:20:29</sys_created_on>
+        <sys_id>f675f2892f9310108631f7ecf699b6e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
+        <sys_update_name>sp_row_f675f2892f9310108631f7ecf699b6e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 12:20:29</sys_updated_on>
+    </sp_row>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</application>
+        <file_path/>
+        <instance_id>f73b2a26db74230052e3f70fbf9619ec</instance_id>
+        <instance_name>dev71556</instance_name>
+        <name>sp_row_f675f2892f9310108631f7ecf699b6e5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_row">
+    <sp_row action="INSERT_OR_UPDATE">
+        <class_name/>
+        <order>1</order>
+        <sp_column/>
+        <sp_container display_value="Home - Container 2">0275ba892f9310108631f7ecf699b601</sp_container>
+        <sys_class_name>sp_row</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-15 12:20:29</sys_created_on>
+        <sys_id>f675f2892f9310108631f7ecf699b6e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
+        <sys_update_name>sp_row_f675f2892f9310108631f7ecf699b6e5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-15 12:20:29</sys_updated_on>
+    </sp_row>
+</record_update>]]></payload>
+        <payload_hash>566141626</payload_hash>
+        <record_name>1</record_name>
+        <reverted_from/>
+        <source>9b6d006d2fd31010e4c854492799b6c3</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-16 13:24:01</sys_created_on>
+        <sys_id>439d00ad2fd31010e4c854492799b632</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1749716186b0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-16 13:24:01</sys_updated_on>
+        <type>Row</type>
+        <update_guid>8f9d00ad8cd31010ca63756d7df32b31</update_guid>
+        <update_guid_history>8f9d00ad8cd31010ca63756d7df32b31:0,188dc46db0d310108dcfd1f6135b6440:-605607011,2ea900a9b8d31010aa28caaa0fcdd792:0,2899c46939d310103c0d699209e1529a:-605607011,3c0adb99d75310105262483c5a6644d8:0,9fe9d399b8531010c9c7071a38de3bdc:-605607011,6ba75fd54c531010229983741fa53dc2:0,9a9797d56b5310103a5221474ab02ec9:-605607011,50f2c759271310106e63f8c2fc8f0f08:566141626</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="1">e83f48ed2fd31010e4c854492799b63e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-09-16 13:30:58</sys_created_on>
+        <sys_db_object display_value="" name="sp_row">sp_row</sys_db_object>
+        <sys_id>023d64a2e81a4fa8809e31f7757b1a40</sys_id>
+        <sys_metadata>f675f2892f9310108631f7ecf699b6e5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>1</sys_name>
+        <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
+        <sys_scope_delete display_value="">28719247fa724b2e8c95e64ffb1c1004</sys_scope_delete>
+        <sys_update_name>sp_row_f675f2892f9310108631f7ecf699b6e5</sys_update_name>
+        <sys_update_version display_value="sp_row_f675f2892f9310108631f7ecf699b6e5">439d00ad2fd31010e4c854492799b632</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-16 13:30:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
