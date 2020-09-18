@@ -2,8 +2,12 @@
     <element label="g7endabrechnung" max_length="40" name="x_526619_reisekost_endabrechnung" type="collection">
         <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Antrag" max_length="32" name="antrag" reference="x_526619_reisekost_g7antrag" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Endbetrag" max_length="40" name="endbetrag" type="float"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Mitarbeiter" max_length="32" name="mitarbeiter" reference="x_526619_reisekost_g7mitarbeiter" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <index name="index">
+            <element name="mitarbeiter"/>
+        </index>
+        <index name="index2">
             <element name="antrag"/>
         </index>
     </element>
