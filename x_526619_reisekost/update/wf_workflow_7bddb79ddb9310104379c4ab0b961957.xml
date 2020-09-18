@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="wf_workflow_version">
     <wf_workflow_version action="INSERT_OR_UPDATE">
         <active>true</active>
-        <activity_stages>{"subflows":[],"ends":["f546c425dbd310104379c4ab0b961957"],"activities":{},"stages":{}}</activity_stages>
+        <activity_stages>{"subflows":[],"stages":{},"activities":{},"ends":["3dbeed4adb5310104379c4ab0b96193f"]}</activity_stages>
         <after_business_rules>false</after_business_rules>
         <checked_out/>
         <checked_out_by/>
@@ -12,10 +12,10 @@
         </condition>
         <condition_type>run_match</condition_type>
         <description/>
-        <expected_sequences>fd46cce1dbd310104379c4ab0b9619d9,7546c425dbd310104379c4ab0b961956,f546c425dbd310104379c4ab0b961957</expected_sequences>
+        <expected_sequences>bdbeed4adb5310104379c4ab0b961940,f1be25c6db5310104379c4ab0b961932,3dbeed4adb5310104379c4ab0b96193f</expected_sequences>
         <expected_time>1970-01-01 14:00:00</expected_time>
         <expected_time_type/>
-        <full_sequences>fd46cce1dbd310104379c4ab0b9619d9,7546c425dbd310104379c4ab0b961956,f546c425dbd310104379c4ab0b961957</full_sequences>
+        <full_sequences>bdbeed4adb5310104379c4ab0b961940,f1be25c6db5310104379c4ab0b961932,3dbeed4adb5310104379c4ab0b96193f</full_sequences>
         <journal/>
         <max_activity_count>100</max_activity_count>
         <name>g7kostenberechnen</name>
@@ -30,16 +30,16 @@
         <schedule/>
         <stage_field/>
         <stage_order>computed</stage_order>
-        <start display_value="Begin">fd46cce1dbd310104379c4ab0b9619d9</start>
+        <start display_value="Begin">bdbeed4adb5310104379c4ab0b961940</start>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-16 12:51:59</sys_created_on>
-        <sys_id>7946cce1dbd310104379c4ab0b9619d8</sys_id>
-        <sys_mod_count>19</sys_mod_count>
-        <sys_updated_by>G7begümkulakci</sys_updated_by>
-        <sys_updated_on>2020-09-18 08:14:38</sys_updated_on>
+        <sys_created_on>2020-09-18 09:45:15</sys_created_on>
+        <sys_id>f9be25c6db5310104379c4ab0b96192f</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-09-18 10:34:26</sys_updated_on>
         <table>x_526619_reisekost_g7antrag</table>
         <timezone/>
-        <validated>true</validated>
+        <validated>false</validated>
         <workflow display_value="g7kostenberechnen">7bddb79ddb9310104379c4ab0b961957</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">
@@ -82,21 +82,21 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-16 12:51:59</sys_created_on>
-        <sys_id>fd46cce1dbd310104379c4ab0b9619d9</sys_id>
+        <sys_created_on>2020-09-18 09:45:15</sys_created_on>
+        <sys_id>bdbeed4adb5310104379c4ab0b961940</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-16 12:51:59</sys_updated_on>
+        <sys_updated_on>2020-09-18 09:45:15</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="g7kostenberechnen">7946cce1dbd310104379c4ab0b9619d8</workflow_version>
+        <workflow_version display_value="g7kostenberechnen">f9be25c6db5310104379c4ab0b96192f</workflow_version>
         <x>20</x>
         <y>20</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=fd46cce1dbd310104379c4ab0b9619d9"/>
+    <sys_variable_value action="delete_multiple" query="document_key=bdbeed4adb5310104379c4ab0b961940"/>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="Begin">fd46cce1dbd310104379c4ab0b9619d9</activity>
+        <activity display_value="Begin">bdbeed4adb5310104379c4ab0b961940</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -110,11 +110,11 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-16 12:51:59</sys_created_on>
-        <sys_id>3946cce1dbd310104379c4ab0b9619da</sys_id>
+        <sys_created_on>2020-09-18 09:45:15</sys_created_on>
+        <sys_id>79beed4adb5310104379c4ab0b961941</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-16 12:51:59</sys_updated_on>
+        <sys_updated_on>2020-09-18 09:45:15</sys_updated_on>
     </wf_condition>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
@@ -132,19 +132,19 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-16 12:51:59</sys_created_on>
-        <sys_id>f546c425dbd310104379c4ab0b961957</sys_id>
+        <sys_created_on>2020-09-18 09:45:15</sys_created_on>
+        <sys_id>3dbeed4adb5310104379c4ab0b96193f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-16 12:51:59</sys_updated_on>
+        <sys_updated_on>2020-09-18 09:45:15</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width>80</width>
-        <workflow_version display_value="g7kostenberechnen">7946cce1dbd310104379c4ab0b9619d8</workflow_version>
+        <workflow_version display_value="g7kostenberechnen">f9be25c6db5310104379c4ab0b96192f</workflow_version>
         <x>447</x>
         <y>299</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=f546c425dbd310104379c4ab0b961957"/>
+    <sys_variable_value action="delete_multiple" query="document_key=3dbeed4adb5310104379c4ab0b96193f"/>
     <wf_activity action="INSERT_OR_UPDATE">
         <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
         <activity_definition_updated>false</activity_definition_updated>
@@ -161,61 +161,63 @@
         <pinned_version/>
         <stage/>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-16 12:51:59</sys_created_on>
-        <sys_id>7546c425dbd310104379c4ab0b961956</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_on>2020-09-18 09:45:15</sys_created_on>
+        <sys_id>f1be25c6db5310104379c4ab0b961932</sys_id>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-16 13:10:37</sys_updated_on>
+        <sys_updated_on>2020-09-18 10:34:16</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
-        <workflow_version display_value="g7kostenberechnen">7946cce1dbd310104379c4ab0b9619d8</workflow_version>
+        <workflow_version display_value="g7kostenberechnen">f9be25c6db5310104379c4ab0b96192f</workflow_version>
         <x>171</x>
         <y>152</y>
     </wf_activity>
-    <sys_variable_value action="delete_multiple" query="document_key=7546c425dbd310104379c4ab0b961956"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f1be25c6db5310104379c4ab0b961932"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7546c425dbd310104379c4ab0b961956</document_key>
+        <document_key>f1be25c6db5310104379c4ab0b961932</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-16 12:51:59</sys_created_on>
-        <sys_id>7946c425dbd310104379c4ab0b961956</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_on>2020-09-18 09:45:15</sys_created_on>
+        <sys_id>3dbe25c6db5310104379c4ab0b961932</sys_id>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-16 13:10:37</sys_updated_on>
+        <sys_updated_on>2020-09-18 10:34:16</sys_updated_on>
         <value>var gr = new GlideRecord('x_526619_reisekost_g7kosten');&#13;
 gr.initialize();&#13;
 gr.setValue('antrag', current.sys_id);&#13;
 gr.setValue('betrag', current.mit_privatem_pkw_gefahrene_distanz * 0.3);&#13;
 gr.setValue('kostenart', "PKW fahrtkosten");&#13;
 gr.setValue('genehmigt', 2);&#13;
+gr.setValue('mitarbeiter', current.ma_id.sys_id);&#13;
 gr.insert();</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>wf_activity</document>
-        <document_key>7546c425dbd310104379c4ab0b961956</document_key>
+        <document_key>f1be25c6db5310104379c4ab0b961932</document_key>
         <order>1</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-16 12:51:59</sys_created_on>
-        <sys_id>7946c425dbd310104379c4ab0b961956</sys_id>
-        <sys_mod_count>7</sys_mod_count>
+        <sys_created_on>2020-09-18 09:45:15</sys_created_on>
+        <sys_id>3dbe25c6db5310104379c4ab0b961932</sys_id>
+        <sys_mod_count>8</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-16 13:10:37</sys_updated_on>
+        <sys_updated_on>2020-09-18 10:34:16</sys_updated_on>
         <value>var gr = new GlideRecord('x_526619_reisekost_g7kosten');&#13;
 gr.initialize();&#13;
 gr.setValue('antrag', current.sys_id);&#13;
 gr.setValue('betrag', current.mit_privatem_pkw_gefahrene_distanz * 0.3);&#13;
 gr.setValue('kostenart', "PKW fahrtkosten");&#13;
 gr.setValue('genehmigt', 2);&#13;
+gr.setValue('mitarbeiter', current.ma_id.sys_id);&#13;
 gr.insert();</value>
         <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
     </sys_variable_value>
     <wf_condition action="INSERT_OR_UPDATE">
-        <activity display_value="g7createkosten">7546c425dbd310104379c4ab0b961956</activity>
+        <activity display_value="g7createkosten">f1be25c6db5310104379c4ab0b961932</activity>
         <condition>true</condition>
         <condition_default/>
         <condition_type>standard</condition_type>
@@ -229,47 +231,47 @@ gr.insert();</value>
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-16 12:51:59</sys_created_on>
-        <sys_id>7146c425dbd310104379c4ab0b961957</sys_id>
+        <sys_created_on>2020-09-18 09:45:15</sys_created_on>
+        <sys_id>39be25c6db5310104379c4ab0b961933</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-16 12:51:59</sys_updated_on>
+        <sys_updated_on>2020-09-18 09:45:15</sys_updated_on>
     </wf_condition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">7146c425dbd310104379c4ab0b961957</condition>
-        <from display_value="g7createkosten">7546c425dbd310104379c4ab0b961956</from>
+        <condition display_value="Always">79beed4adb5310104379c4ab0b961941</condition>
+        <from display_value="Begin">bdbeed4adb5310104379c4ab0b961940</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-16 12:51:59</sys_created_on>
-        <sys_id>4646c425dbd310104379c4ab0b961959</sys_id>
+        <sys_created_on>2020-09-18 09:45:15</sys_created_on>
+        <sys_id>f1beed4adb5310104379c4ab0b961943</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-16 12:51:59</sys_updated_on>
-        <to display_value="End">f546c425dbd310104379c4ab0b961957</to>
+        <sys_updated_on>2020-09-18 09:45:15</sys_updated_on>
+        <to display_value="g7createkosten">f1be25c6db5310104379c4ab0b961932</to>
     </wf_transition>
     <wf_transition action="INSERT_OR_UPDATE">
-        <condition display_value="Always">3946cce1dbd310104379c4ab0b9619da</condition>
-        <from display_value="Begin">fd46cce1dbd310104379c4ab0b9619d9</from>
+        <condition display_value="Always">39be25c6db5310104379c4ab0b961933</condition>
+        <from display_value="g7createkosten">f1be25c6db5310104379c4ab0b961932</from>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-16 12:51:59</sys_created_on>
-        <sys_id>8246c425dbd310104379c4ab0b961959</sys_id>
+        <sys_created_on>2020-09-18 09:45:15</sys_created_on>
+        <sys_id>fdbeed4adb5310104379c4ab0b961942</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-16 12:51:59</sys_updated_on>
-        <to display_value="g7createkosten">7546c425dbd310104379c4ab0b961956</to>
+        <sys_updated_on>2020-09-18 09:45:15</sys_updated_on>
+        <to display_value="End">3dbeed4adb5310104379c4ab0b96193f</to>
     </wf_transition>
     <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
         <estimated_run_time/>
         <no_of_data_points>1</no_of_data_points>
         <percentage_threshold_ert>20</percentage_threshold_ert>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-09-16 12:51:59</sys_created_on>
-        <sys_id>f946cce1dbd310104379c4ab0b9619d8</sys_id>
+        <sys_created_on>2020-09-18 09:45:15</sys_created_on>
+        <sys_id>fdbe25c6db5310104379c4ab0b96192f</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-16 12:51:59</sys_updated_on>
-        <workflow_version display_value="g7kostenberechnen">7946cce1dbd310104379c4ab0b9619d8</workflow_version>
+        <sys_updated_on>2020-09-18 09:45:15</sys_updated_on>
+        <workflow_version display_value="g7kostenberechnen">f9be25c6db5310104379c4ab0b96192f</workflow_version>
     </wf_estimated_runtime_config>
-    <wf_workflow_version action="update_multiple" query="workflow=7bddb79ddb9310104379c4ab0b961957^sys_id!=7946cce1dbd310104379c4ab0b9619d8">
+    <wf_workflow_version action="update_multiple" query="workflow=7bddb79ddb9310104379c4ab0b961957^sys_id!=f9be25c6db5310104379c4ab0b96192f">
         <published>false</published>
     </wf_workflow_version>
 </record_update>
