@@ -55,7 +55,7 @@
         <update_guid_history>bee8864d231310106ca20e9abe3171bd:1089080155,74495ec55d53101037d26593d1d4e7fd:-974388633,bee8864d231310106ca20e9abe3171bd:1089080155,cd310609c71310105d61155ef924d368:85091936</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">b865fe492f9310108631f7ecf699b6c4</sys_audit_delete>
+        <sys_audit_delete display_value="Häufig gestellte Fragen">b865fe492f9310108631f7ecf699b6c4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-15 12:20:05</sys_created_on>
