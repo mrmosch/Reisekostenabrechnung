@@ -33,12 +33,12 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-16 12:37:36</sys_created_on>
         <sys_id>93f240a1dbd310104379c4ab0b961903</sys_id>
-        <sys_mod_count>3</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-16 12:37:45</sys_updated_on>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>G7begümkulakci</sys_updated_by>
+        <sys_updated_on>2020-09-18 08:14:38</sys_updated_on>
         <table>x_526619_reisekost_g7kosten</table>
         <timezone/>
-        <validated>false</validated>
+        <validated>true</validated>
         <workflow display_value="g7endabrechnung">d333a2fb07c310101af9f9fc7c1ed002</workflow>
     </wf_workflow_version>
     <wf_workflow action="INSERT_OR_UPDATE">

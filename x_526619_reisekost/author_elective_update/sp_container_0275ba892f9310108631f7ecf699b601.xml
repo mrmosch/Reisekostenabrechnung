@@ -78,7 +78,7 @@
         <update_guid_history>5a9dcc6dc8d3101081d928c981b2e841:0,d88dc46d61d3101062c6434d0a522842:1913138196,4ea9cc697dd310106e39a7a2298a19d6:0,ac99c4690ad31010cdf613babc3f4b9c:1913138196,e80adb99dc53101043b1195783693712:0,57e9d399065310100ce55d145eb23edf:1913138196,13a75fd563531010457b74b0b7846349:0,529797d5d05310106fda3f81dab66acc:1913138196,5cf28759a3131010b5e6a5e4adffdac0:70912104</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="">643f48ed2fd31010e4c854492799b642</sys_audit_delete>
+        <sys_audit_delete display_value="Home - Container 2">643f48ed2fd31010e4c854492799b642</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-16 13:30:58</sys_created_on>
