@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="" label="g7antrag" language="en" table="x_526619_reisekost_g7antrag">
+    <sys_documentation element="mitarbeiter" label="Mitarbeiter" language="en" table="x_526619_reisekost_g7kosten">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element/>
+            <element>mitarbeiter</element>
             <help/>
             <hint/>
-            <label>g7antrag</label>
+            <label>Mitarbeiter</label>
             <language>en</language>
-            <name>x_526619_reisekost_g7antrag</name>
-            <plural>g7antrags</plural>
+            <name>x_526619_reisekost_g7kosten</name>
+            <plural>Mitarbeiters</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-11 09:28:40</sys_created_on>
-            <sys_id>c89ed50e071310101af9f9fc7c1ed0f2</sys_id>
+            <sys_created_on>2020-09-18 08:29:08</sys_created_on>
+            <sys_id>ba4d11ca071310101af9f9fc7c1ed0b0</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>g7antrag</sys_name>
+            <sys_name>Mitarbeiter</sys_name>
             <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
             <sys_policy/>
             <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
-            <sys_update_name>sys_documentation_x_526619_reisekost_g7antrag__en</sys_update_name>
+            <sys_update_name>sys_documentation_x_526619_reisekost_g7kosten_mitarbeiter_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-11 09:28:40</sys_updated_on>
+            <sys_updated_on>2020-09-18 08:29:08</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
