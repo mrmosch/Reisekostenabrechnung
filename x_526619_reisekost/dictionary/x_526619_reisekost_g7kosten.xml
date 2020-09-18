@@ -10,7 +10,7 @@
             </choice>
         </element>
         <element label="Kostenart" mandatory="true" max_length="100" name="kostenart" type="string"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Mitarbeiter" max_length="32" name="mitarbeiter" reference="x_526619_reisekost_g7mitarbeiter" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Mitarbeiter" mandatory="true" max_length="32" name="mitarbeiter" reference="x_526619_reisekost_g7mitarbeiter" type="reference" use_dynamic_default="true"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <index name="index">
             <element name="mitarbeiter"/>

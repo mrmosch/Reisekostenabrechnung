@@ -1,55 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_ui_section caption="" section_id="88266e772f8b10108631f7ecf699b697" sys_domain="global" table="x_526619_reisekost_g7kosten" version="3" view="">
+    <sys_ui_section caption="Kosten" section_id="d17725c2075310101af9f9fc7c1ed0f1" sys_domain="global" table="x_526619_reisekost_g7kosten" version="3" view="">
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>mitarbeiter</element>
+            <element>kostenart</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-09-18 09:13:32</sys_created_on>
-            <sys_id>157765c2075310101af9f9fc7c1ed072</sys_id>
+            <sys_id>197765c2075310101af9f9fc7c1ed077</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_526619_reisekost_g7kosten" sys_domain="global" view="Default view">88266e772f8b10108631f7ecf699b697</sys_ui_section>
+            <sys_ui_section caption="Kosten" display_value="Kosten" name="x_526619_reisekost_g7kosten" sys_domain="global" view="Default view">d17725c2075310101af9f9fc7c1ed0f1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-09-18 09:13:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>antrag</element>
+            <element>.split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-09-18 09:13:32</sys_created_on>
-            <sys_id>d97765c2075310101af9f9fc7c1ed072</sys_id>
+            <sys_id>997765c2075310101af9f9fc7c1ed077</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_526619_reisekost_g7kosten" sys_domain="global" view="Default view">88266e772f8b10108631f7ecf699b697</sys_ui_section>
+            <sys_ui_section caption="Kosten" display_value="Kosten" name="x_526619_reisekost_g7kosten" sys_domain="global" view="Default view">d17725c2075310101af9f9fc7c1ed0f1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-18 09:13:32</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>betrag</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-18 09:13:32</sys_created_on>
+            <sys_id>1d7765c2075310101af9f9fc7c1ed077</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Kosten" display_value="Kosten" name="x_526619_reisekost_g7kosten" sys_domain="global" view="Default view">d17725c2075310101af9f9fc7c1ed0f1</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2020-09-18 09:13:32</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
-            <caption/>
+            <caption>Kosten</caption>
             <header>false</header>
             <name>x_526619_reisekost_g7kosten</name>
             <roles/>
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-11 14:02:45</sys_created_on>
+            <sys_created_on>2020-09-18 09:13:32</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>88266e772f8b10108631f7ecf699b697</sys_id>
+            <sys_id>d17725c2075310101af9f9fc7c1ed0f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>x_526619_reisekost_g7kosten</sys_name>
+            <sys_name>Kosten</sys_name>
             <sys_overrides/>
             <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
             <sys_policy/>
             <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
-            <sys_update_name>sys_ui_section_88266e772f8b10108631f7ecf699b697</sys_update_name>
+            <sys_update_name>sys_ui_section_d17725c2075310101af9f9fc7c1ed0f1</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-11 14:02:45</sys_updated_on>
+            <sys_updated_on>2020-09-18 09:13:32</sys_updated_on>
             <sys_user/>
-            <title>true</title>
+            <title>false</title>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_section>

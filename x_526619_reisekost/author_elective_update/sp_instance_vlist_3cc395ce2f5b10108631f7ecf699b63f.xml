@@ -133,7 +133,7 @@
         <reverted_from/>
         <source>3b1210ad2fdf10108631f7ecf699b6af</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-18 07:52:50</sys_created_on>
         <sys_id>43f499022f9b10108631f7ecf699b658</sys_id>
