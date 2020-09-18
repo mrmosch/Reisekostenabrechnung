@@ -24,17 +24,17 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>a2c76573074310101af9f9fc7c1ed03c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_name>g7antrags</sys_name>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Antrags</sys_name>
         <sys_overrides/>
         <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
         <sys_policy/>
         <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
         <sys_update_name>sys_app_module_a2c76573074310101af9f9fc7c1ed03c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-11 09:28:39</sys_updated_on>
+        <sys_updated_on>2020-09-18 09:54:07</sys_updated_on>
         <timeline_page/>
-        <title>g7antrags</title>
+        <title>Antrags</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

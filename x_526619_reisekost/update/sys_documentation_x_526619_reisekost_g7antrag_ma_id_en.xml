@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="ma_id" label="Ma ID" language="en" table="x_526619_reisekost_g7antrag">
+    <sys_documentation element="ma_id" label="Mitarbeiter" language="en" table="x_526619_reisekost_g7antrag">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>ma_id</element>
             <help/>
             <hint/>
-            <label>Ma ID</label>
+            <label>Mitarbeiter</label>
             <language>en</language>
             <name>x_526619_reisekost_g7antrag</name>
-            <plural>Ma IDs</plural>
+            <plural>Mitarbeiters</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2020-09-11 09:32:20</sys_created_on>
-            <sys_id>510be546db5310104379c4ab0b961960</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Ma ID</sys_name>
+            <sys_id>7d53fd0a2fdb10108631f7ecf699b674</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Mitarbeiter</sys_name>
             <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
             <sys_policy/>
             <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
             <sys_update_name>sys_documentation_x_526619_reisekost_g7antrag_ma_id_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-11 09:32:20</sys_updated_on>
+            <sys_updated_on>2020-09-18 09:49:24</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

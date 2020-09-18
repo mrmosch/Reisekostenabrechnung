@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="g7antrag" max_length="40" name="x_526619_reisekost_g7antrag" type="collection">
+    <element label="Antrag" max_length="40" name="x_526619_reisekost_g7antrag" type="collection">
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Bahnklasse" max_length="40" name="bahnklasse" type="choice">
             <choice>
                 <element inactive_on_update="false" label="ja" value="2"/>
@@ -19,14 +19,14 @@
                 <element inactive_on_update="false" label="Koeln" value="2"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Genehmigt" max_length="40" name="genehmigt" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Antragsstatus" max_length="40" name="genehmigt" type="choice">
             <choice>
                 <element inactive_on_update="false" label="beantragt" value="1"/>
                 <element inactive_on_update="false" label="genehmigt" value="2"/>
             </choice>
         </element>
         <element label="Hinreise" mandatory="true" max_length="40" name="hinreise" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Hotel_erforderlich" mandatory="true" max_length="40" name="hotel_erforderlich" type="choice">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Hotel" mandatory="true" max_length="40" name="hotel_erforderlich" type="choice">
             <choice>
                 <element inactive_on_update="false" label="ja" value="1"/>
                 <element inactive_on_update="false" label="nein" value="2"/>
@@ -38,12 +38,12 @@
                 <element inactive_on_update="false" label="nein" value="1"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Ma ID" mandatory="true" max_length="32" name="ma_id" reference="x_526619_reisekost_g7mitarbeiter" type="reference" use_dynamic_default="true"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" default="javascript:gs.getUserID();" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="Mitarbeiter" mandatory="true" max_length="32" name="ma_id" reference="x_526619_reisekost_g7mitarbeiter" type="reference" use_dynamic_default="true"/>
         <element attributes="edge_encryption_enabled=true" default="0" label="Mit privatem PKW gefahrene Distanz" mandatory="true" max_length="40" name="mit_privatem_pkw_gefahrene_distanz" type="float"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Antragsnummer" max_length="40" name="number" type="string"/>
         <element label="Ort" mandatory="true" max_length="100" name="ort" type="string"/>
-        <element label="Rueckreise" mandatory="true" max_length="40" name="rueckreise" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Verantwortlicher_Leiter" mandatory="true" max_length="32" name="verantwortlicher_leiter" reference="x_526619_reisekost_g7mitarbeiter" reference_qual="rolle=2^EQ" reference_qual_condition="rolle=2^EQ" type="reference"/>
+        <element label="Rückreise" mandatory="true" max_length="40" name="rueckreise" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Verantwortlicher Leiter" mandatory="true" max_length="32" name="verantwortlicher_leiter" reference="x_526619_reisekost_g7mitarbeiter" reference_qual="rolle=2^EQ" reference_qual_condition="rolle=2^EQ" type="reference"/>
         <index name="index">
             <element name="verantwortlicher_leiter"/>
         </index>
