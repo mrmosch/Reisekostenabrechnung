@@ -33,7 +33,7 @@
         <reverted_from/>
         <source>7992868e2fdb10108631f7ecf699b60d</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-18 12:35:41</sys_created_on>
         <sys_id>96b596022f5f10108631f7ecf699b645</sys_id>
@@ -46,7 +46,7 @@
         <update_guid_history>52b59acec01f10108c494bf53203b513:1938115986,84b51602765f101059851e60c85c858e:-700282092</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="1">afb552022f5f10108631f7ecf699b6a3</sys_audit_delete>
+        <sys_audit_delete display_value="">afb552022f5f10108631f7ecf699b6a3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-18 12:35:45</sys_created_on>

@@ -15,22 +15,22 @@
 
 
 
-        if (g_user.hasRole('x_526619_reisekost.g7user') && !g_user.hasRole('admin')) {
-            g_form.setVisible('genehmigt', false);
+    if (g_user.hasRole('x_526619_reisekost.g7admin') == false ) {
+        g_form.setVisible('genehmigt', false);
 
-        }
-
-
+    }
 
 
-    }]]></script>
+
+
+}]]></script>
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-18 11:19:50</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d00406c6079310101af9f9fc7c1ed0df</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>g7genehmigen_antrag</sys_name>
         <sys_overrides/>
         <sys_package display_value="ReisekostenabrechnungGr7" source="x_526619_reisekost">e45451372f031010e4c854492799b62b</sys_package>
@@ -38,7 +38,7 @@
         <sys_scope display_value="ReisekostenabrechnungGr7">e45451372f031010e4c854492799b62b</sys_scope>
         <sys_update_name>sys_script_client_d00406c6079310101af9f9fc7c1ed0df</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-09-18 11:19:50</sys_updated_on>
+        <sys_updated_on>2020-09-18 12:39:58</sys_updated_on>
         <table>x_526619_reisekost_g7antrag</table>
         <type>onLoad</type>
         <ui_type>10</ui_type>
