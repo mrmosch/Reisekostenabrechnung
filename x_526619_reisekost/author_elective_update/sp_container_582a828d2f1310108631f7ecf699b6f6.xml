@@ -51,7 +51,7 @@
         <update_guid_history>dc2a828d241310106c76814fda85f9f7:1968989746</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Navigation - Container 1">08ba4a8d2f1310108631f7ecf699b6b1</sys_audit_delete>
+        <sys_audit_delete display_value="">08ba4a8d2f1310108631f7ecf699b6b1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-09-15 09:13:32</sys_created_on>
