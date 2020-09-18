@@ -4,13 +4,27 @@
             <element>bemerkungen</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-16 12:12:10</sys_created_on>
-            <sys_id>ae2dff5ddb9310104379c4ab0b9619d5</sys_id>
+            <sys_created_on>2020-09-18 11:17:54</sys_created_on>
+            <sys_id>4fe3c2c6079310101af9f9fc7c1ed0a4</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Bemerkungen" display_value="Bemerkungen" name="x_526619_reisekost_g7antrag" sys_domain="global" view="Default view">522dff5ddb9310104379c4ab0b96195a</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-16 12:12:10</sys_updated_on>
+            <sys_updated_on>2020-09-18 11:17:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>genehmigt</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-18 11:17:54</sys_created_on>
+            <sys_id>c3e3c2c6079310101af9f9fc7c1ed0a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Bemerkungen" display_value="Bemerkungen" name="x_526619_reisekost_g7antrag" sys_domain="global" view="Default view">522dff5ddb9310104379c4ab0b96195a</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-18 11:17:54</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

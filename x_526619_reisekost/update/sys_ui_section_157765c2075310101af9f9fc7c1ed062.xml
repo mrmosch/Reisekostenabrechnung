@@ -4,13 +4,27 @@
             <element>beleg</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-09-18 09:13:32</sys_created_on>
-            <sys_id>dd7765c2075310101af9f9fc7c1ed07b</sys_id>
+            <sys_created_on>2020-09-18 09:52:56</sys_created_on>
+            <sys_id>5270b58a075310101af9f9fc7c1ed0d1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Beleg" display_value="Beleg" name="x_526619_reisekost_g7kosten" sys_domain="global" view="Default view">157765c2075310101af9f9fc7c1ed062</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-09-18 09:13:32</sys_updated_on>
+            <sys_updated_on>2020-09-18 09:52:56</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>genehmigt</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-09-18 09:52:56</sys_created_on>
+            <sys_id>1a70b58a075310101af9f9fc7c1ed0d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Beleg" display_value="Beleg" name="x_526619_reisekost_g7kosten" sys_domain="global" view="Default view">157765c2075310101af9f9fc7c1ed062</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-09-18 09:52:56</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
